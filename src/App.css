@@ -1,0 +1,25 @@
+.app-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
+}
+.app-block-text {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+*::selection {
+  background-color: #d3724f;
+  color: #ffffff;
+}
+
+div,
+p {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 500;
+}
